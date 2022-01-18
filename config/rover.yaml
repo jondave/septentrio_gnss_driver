@@ -2,7 +2,9 @@
 
 # GNSS/INS Parameters
 
-device: tcp://xxx.xxx.xxx.xxx:xxxx
+#device: tcp://xxx.xxx.xxx.xxx:xxxx
+#device: serial:/path/to/device
+device: serial:/dev/ttyACM0
 
 serial:
   baudrate: 115200
